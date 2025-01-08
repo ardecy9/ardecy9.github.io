@@ -146,7 +146,7 @@ li {
 }
 
 #contact {
-  background: linear-gradient(to right, #22272A, #41474B);
+  background: linear-gradient(180deg, #1f1c2c, #3A3749);
   color: white;
   padding: var(--section-padding);
 }
