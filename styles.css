@@ -73,6 +73,7 @@ li {
   align-items: center;
   color: white;
   line-height: 1.5;
+  padding: 32px;
 }
 
 #welcome-section > h1 {
@@ -96,6 +97,7 @@ li {
   max-width: 550px;
   margin: auto;
   font-size: 32px;
+  padding: 10px;
 }
 
 .project-tile {
@@ -152,17 +154,16 @@ li {
 }
 
 #contact {
-  background: linear-gradient(180deg, #1f1c2c, #3A3749);
-  color: white;
   padding: var(--section-padding);
 }
 
 #contact > h2 {
   text-align: center;
-  border-bottom: 0.2rem solid white;
+  border-bottom: 0.2rem solid;
   max-width: 220px;
   margin: auto;
   font-size: 32px;
+  padding: 10px;
 }
 
 .contact-info {
@@ -177,10 +178,6 @@ li {
 .contact-info > p > i {
   font-size: 32px;
   margin-right: 10px;
-}
-
-.contact-info > fieldset {
-  line-height: 1.0;
 }
 
 @media (max-width: 640px) {
@@ -212,7 +209,7 @@ label {
 
 input {
   width: 100%;
-  margin-top: 10px;
+  margin-top: 5px;
   height: 45px;
   font-size: 18px;
   padding-left: 10px;
@@ -222,8 +219,9 @@ input[type="submit"] {
   display: block;
   margin: 10px auto 0 auto;
   height: 45px;
-  border-color: white;
   width: 200px;
+  color: white;
+  background-color: black;
 }
 
 .line {
